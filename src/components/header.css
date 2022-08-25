@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    height: 50px;
+    width: auto;
+    position: fixed;
+    z-index: 1000;
+    background-color: #ffffff;
+    color: #20603b;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    box-shadow: -1px 4px 5px 0px rgba(43,103,119,0.46);
+    -webkit-box-shadow: -1px 4px 5px 0px rgba(43,103,119,0.46);
+    -moz-box-shadow: -1px 4px 5px 0px rgba(43,103,119,0.46);
+}

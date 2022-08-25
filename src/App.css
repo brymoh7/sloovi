@@ -1,0 +1,63 @@
+.content {
+  margin-left: 200px;
+  padding: 20px 20px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.primary-btn{
+  background-color: #47bb7f;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.btn-sec{
+  font-size: 12px;
+  background-color: inherit;
+}
+
+.task-head{
+  background-color: #f9f9fa!important;
+}
+
+.task-head-btn{
+  background-color: #f9f9fa!important;
+  outline: none;
+  border: 1px solid#ced4da;
+}
+
+.bl-0{
+  background-color: #fff;
+  outline: none;
+  border: 1px solid#ced4da;
+  border-left: 0;
+
+}
+
+.bl-0:hover, .bl-0:focus, .task-head-btn:focus, .task-head-btn:hover{
+  background-color: #fff;
+  border: 1px solid#ced4da;
+  border-left: 0px;
+  color: inherit;
+}
+
+input{
+  border-right: 0!important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+input:focus{
+  box-shadow: none!important;
+  outline-color: inherit;
+}
+
+button:active, button:focus{
+  outline: none!important;
+  box-shadow: none!important;
+}

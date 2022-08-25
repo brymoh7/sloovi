@@ -1,0 +1,8 @@
+.sidebar{
+    background-color: #323e4d;
+    width: 200px;
+    position: fixed;
+    bottom: 0;
+    top: 50px;
+    cursor: pointer;
+}
